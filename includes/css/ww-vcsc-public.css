@@ -1,0 +1,111 @@
+/* ############## boxes type css start ################*/
+.ww-vcsc-boxstandard {
+	border: 1px solid #FFFFFF;
+	color: #6D6E6E;
+	background: none repeat scroll 0 0 #F1F1F1;
+	margin: 0 0 10px;
+	padding: 15px 45px 15px 45px;
+
+}
+
+.ww-vcsc-boxinfo {
+	background: url(../images/box-info.png) no-repeat scroll 7px 6px #BEDEFF;
+	border: 1px solid #E7F3FF;
+	color: #517193;
+	padding: 15px 55px 15px 55px;
+	border-radius: 4px;
+}
+
+.ww-vcsc-boxwarning {
+	background: url(../images/box-warning.png) no-repeat scroll 7px 6px #F7F4B4;
+	border: 1px solid #FFFFEA;
+	color: #8C8A64;
+	padding: 15px 45px 15px 45px;
+	border-radius: 4px;
+}
+
+.ww-vcsc-boxdownload {
+	background: url(../images/box-download.png) no-repeat scroll 7px 6px #C0F0B3;
+	border: 1px solid #E9FFE3;
+	color: #5C8A50;
+	padding: 15px 54px 15px 54px;
+	border-radius: 4px;
+}
+
+.ww-vcsc-boxerror {
+	background: url(../images/box-error.png) no-repeat scroll 7px 6px #FFCEBE;
+	border: 1px solid #FFEEE8;
+	color: #957368;
+	padding: 15px 45px 15px 45px;
+	border-radius: 4px;
+}
+
+.ww-vcsc-boxstandard,
+.ww-vcsc-boxinfo,
+.ww-vcsc-boxwarning,
+.ww-vcsc-boxdownload,
+.ww-vcsc-boxerror {
+	font-family: 'Droid Sans,Arial', Verdana, sans-serif;
+	font-size: 14px;
+	line-height: 21px;
+	float: left;
+	min-height: 57px;
+	line-height: 18px;
+	margin: 0 0 10px;
+	margin: 20px;
+	width: auto;
+	clear: both;
+	min-width: 145px;
+	width: 190px;
+	text-align: center;
+	color: #000;
+	border-radius: 6px;
+}
+
+/*.ww-vcsc-boxstandard{
+	width:100% !important;
+}*/
+
+/**************** boxes type css end *************************/
+
+/**************** Button CSS Start *************************/
+a.ww-vcsc-button.orange {
+	background: -moz-linear-gradient(center top, #FAA51A, #F47A20) repeat scroll 0 0 transparent;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(.2, #FAA51A), color-stop(1, #F47A20));
+	background-color: #d76b23;
+	border: 1px solid #DA7C0C;
+	color: #FEF4E9;
+}
+
+a.ww-vcsc-button.orange:hover {
+	background: #d25e00;
+	background: -moz-linear-gradient(center top, #F88E11, #F06015) repeat scroll 0 0 transparent;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(.2, #F88E11), color-stop(1, #F06015));
+}
+
+a.ww-vcsc-button.orange:active {
+	background: -moz-linear-gradient(center top, #F47A20, #FAA51A) repeat scroll 0 0 transparent;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(.2, #F47A20), color-stop(1, #FAA51A));
+	color: #FCD3A5;
+}
+
+a.ww-vcsc-button span {
+	line-height: 1.2em;
+	min-height: 16px;
+}
+
+a.ww-vcsc-button.large {
+	font-size: 1.4em;
+	padding: 7px 46px;
+}
+
+.ww-vcsc-button-container {
+	margin-bottom: 10px;
+}
+
+.ww-vcsc-boxinfo a.button {
+	text-decoration: none;
+	font-size: 18px;
+}
+
+/**************** Button CSS End *************************/
